@@ -1,0 +1,48 @@
+section.new-tweet {
+  background-color: #efefef;
+  /*z-index: 1;*/
+  border-style: solid;
+  border-color: #ccc9c9;
+  border-radius: 8px;
+  border-width: thin;
+  height: 193px;
+}
+
+main h2 {
+  margin-top: 10px;
+  margin-left: 6px;
+  margin-right: 8px;
+  font-size: 30px;
+  border-style: solid;
+  border-color: black;
+  border-right: #efefef;
+  border-left: #efefef;
+  border-top: #efefef;
+  border-width: thin;
+}
+
+main form {
+  margin-bottom: 10px;
+}
+
+main input {
+  width: 72px;
+  height: 25px;
+  font-size: 17px;
+  margin-left: 6px;
+}
+
+main span {
+  font-size: 15px;
+  float: right;
+  margin-right: 22px;
+  margin-top: 8.2px;
+}
+
+main textarea {
+  width: 375px;
+  margin-left: 6px;
+  font-size: 18px;
+  height: 79px;
+
+}
