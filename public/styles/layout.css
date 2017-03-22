@@ -41,6 +41,9 @@ main.container {
   padding-right: 30px;
 }
 
+main.counter {
+  color: tomato;
+}
 
 
 

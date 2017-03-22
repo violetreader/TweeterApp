@@ -1,6 +1,5 @@
 section.new-tweet {
   background-color: #efefef;
-  /*z-index: 1;*/
   border-style: solid;
   border-color: #ccc9c9;
   border-radius: 8px;
@@ -44,5 +43,8 @@ main textarea {
   margin-left: 6px;
   font-size: 18px;
   height: 79px;
-
 }
+
+
+
+

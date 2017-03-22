@@ -1,0 +1,74 @@
+/*https://usercontent1.hubstatic.com/7241270_f520.jpg*/
+
+main .tweet {
+  border-style: solid;
+  border-color: #ccc9c9;
+  border-radius: 8px;
+  border-width: thin;
+  height: 193px;
+  margin-top: 50px;
+  z-index: -10;
+}
+
+.tweet header {
+  background-color: #efefef;
+  height: 60px;
+  position: relative;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  position: relative;
+}
+
+.tweet .smiley {
+  width: 47px;
+  margin-top: 5px;
+  margin-left: 5px;
+  display: inline;
+  background-color: #efefef;
+  position: relative;
+  top: -107px;
+  border-radius: 4px;
+}
+
+.tweet h6 {
+  position: relative;
+  top: -208px;
+  left: 60px;
+  font-size: 22px;
+}
+
+.tweet .tweetContent {
+  position: relative;
+  top: -200px
+}
+
+.tweet .time {
+  position: relative;
+  font-size: 14px;
+  top: -195px;
+}
+
+.tweet .atUser {
+  position: relative;
+  font-size: 15px;
+  left: 318px;
+  top: -62px;
+  color: #a3a3a5;
+}
+
+.tweet footer {
+  border-style: solid;
+  border-color: #e6e5e5;
+  border-right: #efefef;
+  border-left: #efefef;
+  border-bottom: #efefef;
+  border-width: thin;
+  position: relative;
+  top: -190px;
+}
+
+
+
+
+
+
