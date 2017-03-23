@@ -1,71 +1,69 @@
 /*https://usercontent1.hubstatic.com/7241270_f520.jpg*/
 
-main .tweet {
-  border-style: solid;
-  border-color: #ccc9c9;
-  border-radius: 8px;
-  border-width: thin;
-  height: 193px;
-  margin-top: 50px;
-  z-index: -10;
+main #appendNewTweetsHere {
+
 }
 
-.tweet header {
-  background-color: #efefef;
-  height: 60px;
-  position: relative;
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
-  position: relative;
+article.tweet {
+  margin-top: 30px;
 }
 
-.tweet .smiley {
+#appendNewTweetsHere header {
+
+}
+
+#appendNewTweetsHere .atUser {
+  float: right;
+  font-size: 12px;
+  margin-right: 11px;
+}
+
+#appendNewTweetsHere .smiley {
   width: 47px;
-  margin-top: 5px;
-  margin-left: 5px;
-  display: inline;
-  background-color: #efefef;
-  position: relative;
-  top: -107px;
-  border-radius: 4px;
+  margin-left: 7px;
+  margin-top: 7px;
 }
 
-.tweet h6 {
-  position: relative;
-  top: -208px;
-  left: 60px;
-  font-size: 22px;
-}
-
-.tweet .tweetContent {
-  position: relative;
-  top: -200px
-}
-
-.tweet .time {
-  position: relative;
-  font-size: 14px;
-  top: -195px;
-}
-
-.tweet .atUser {
-  position: relative;
-  font-size: 15px;
-  left: 318px;
-  top: -62px;
-  color: #a3a3a5;
-}
-
-.tweet footer {
+#appendNewTweetsHere h6 {
+  font-size: 25px;
+  margin-top: -50px;
+  margin-left: 64px;
+  margin-right: 8px;
   border-style: solid;
-  border-color: #e6e5e5;
+  border-color: black;
+  border-right: #efefef;
+  border-left: #efefef;
+  border-top: #efefef;
+  border-width: thin;
+}
+
+#appendNewTweetsHere .tweetContent {
+  margin-left: 7px;
+  margin-right: 8px;
+  position: relative;
+  bottom: 27px;
+  font-size: 18px;
+  height: 73px;
+}
+
+#appendNewTweetsHere footer {
+  border-style: solid;
+  border-color: #b3afaf;
   border-right: #efefef;
   border-left: #efefef;
   border-bottom: #efefef;
   border-width: thin;
   position: relative;
-  top: -190px;
+  bottom: 23px;
 }
+
+#appendNewTweetsHere .time {
+  font-size: 10px;
+  position: relative;
+  bottom: 3px;
+  margin-left: 7px;
+}
+
 
 
 
