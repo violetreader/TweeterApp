@@ -57,7 +57,7 @@ article.tweet {
   bottom: 23px;
 }
 
-#appendNewTweetsHere .time {
+#appendNewTweetsHere .timeago {
   font-size: 10px;
   position: relative;
   bottom: 3px;
