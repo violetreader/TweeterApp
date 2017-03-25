@@ -21,3 +21,30 @@
   float: left;
   padding-left: 10px;
 }
+
+#nav-bar input {
+  background-color: #def6fa;
+  float: right;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 5px;
+  margin-right: -10px;
+  border-radius: 7px;
+}
+
+#nav-bar input:hover {
+  background-color: #def6fa;
+  float: right;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 5px;
+  margin-right: -10px;
+  border-radius: 7px;
+  background-color: white;
+}
+
+

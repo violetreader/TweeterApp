@@ -9,7 +9,6 @@
 $(document).ready(function() {
 
 
-
   function renderTweets(arrTweetsObj) {
     for (key in arrTweetsObj) {
       $("main #appendNewTweetsHere").append(createTweetElement(arrTweetsObj[key]));
@@ -64,7 +63,7 @@ $(document).ready(function() {
       $("main textarea").val("");
       $("main textarea").focus();
       window.location.reload(true);
-    });
+    })
   });
 
   function loadTweets() {
@@ -72,6 +71,7 @@ $(document).ready(function() {
       url: '/tweets',
       method: 'GET',
       success: function(obj) {
+        // console.log('my ajax works!!!', obj)
         obj.reverse();
         renderTweets(obj);
       },
@@ -81,6 +81,14 @@ $(document).ready(function() {
     });
   }
   loadTweets();
+
+
+  $("nav input").on("click", function(event){
+    console.log("button pressed!", event);
+    $("main .new-tweet").toggle();
+  });
+
+
 });
 
 
